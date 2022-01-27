@@ -2,7 +2,7 @@ import { Box, Button, Flex, Heading, Icon, IconButton, Link, Stack, Text } from 
 import { withUrqlClient } from "next-urql"
 import { Layout } from "../components/Layour";
 import { usePostsQuery } from "../generated/graphql";
-import { createUrqlClient } from "../utils/createUrlClient";
+import { createUrqlClient } from "../utils/createUrqlClient";
 import NextLink from 'next/link';
 import { useState } from "react";
 import { ChevronDownIcon, ChevronUpIcon } from "@chakra-ui/icons";

@@ -6,7 +6,7 @@ import React from 'react'
 import { InputField } from '../components/InputField';
 import { Wrapper } from '../components/Wrapper';
 import { useRegisterMutation } from '../generated/graphql';
-import { createUrqlClient } from '../utils/createUrlClient';
+import { createUrqlClient } from '../utils/createUrqlClient';
 import { toErrorMap } from '../utils/toErrorMap';
 
 
